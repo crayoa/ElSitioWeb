@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Proyecto-Web</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MAIN WRAPPER -->
+  <div id="wrapper">
+
+    <!-- BANNER WRAPPER -->
+    <div id="banner-wrapper">
+      <header>
+        <div id="header-inner">
+          <a href="#" id="logo">
+            <img src="logo.jpg" alt="">
+          </a>
+
+          <nav>
+            <a href="#" id="menu-icon">
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li>
+                <a href="index.html" class="current">
+                  Inicio
+                </a>
+              </li>
+              <li>
+                <a href="#quienesomos">
+                  Quienes Somos
+                </a>
+              </li>
+              <li>
+                <a href="#services">
+                  Servicios
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  Contacto
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- SLIDER -->
+      <div id="slide-wrap">
+        <section class="slider">
+          <ul class="slider1">
+            <li><img src="slider1.jpg" alt=""></li>
+            <li><img src="slider2.jpg" alt=""></li>
+            <li><img src="slider3.jpg" alt=""></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- ICONS -->
+    <section class="one-third" id="quienesomos">
+      <div class="icon-wrap">
+        <i class="fa fa-desktop"></i>
+      </div>
+      <h3>Quienes Somos</h3>
+      <p>Somos su socio estratégico en transformación digital, proveemos soluciones de tecnología y comunicaciones vanguardistas, con la mejor relación costo-beneficio, enfocadas en brindarle los resultados que necesite para que usted se encargue de su negocio. Permítanos asesorarle en cualquiera de las áreas de expertise como Videovigilancia IP, Comunicaciones Unificadas, Infraestructura de redes y Datacenter, Biometría, Seguridad de la información, Energía y mucho más.</p>
+    </section>
+
+
+    <div class="clearfix-padding"></div>
+    <!-- INFO THUMBNAILS -->
+    <div class="one-third-padding" id="services">
+      <h3>Tecnologías</h3>
+      <img src="image1.png" alt="">
+      <p>La tecnología transforma las tareas pesadas o complejas en tareas ligeras o sencillas. Además, en los últimos años, la automatización y la inteligencia artificial han simplificado aún más las tareas, facilitando nuestro día a día.</p>
+    </div>
+    <div class="one-third-padding">
+      <h3>Infraestructura</h3>
+      <img src="image2.png" alt="">
+      <p>Un elemento fundamental de una organización es su infraestructura tecnológica. Se podría definir como el conjunto de elementos para el almacenamiento de los datos de una empresa. </p>
+    </div>
+    <div class="one-third-padding">
+      <h3>Soporte</h3>
+      <img src="image3.png" alt="">
+      <p>Mantenimiento, supervisión, reparación, creación de scripts, automatización de tareas sobre los servidores y sus sistemas operativos y aplicaciones</p>
+    </div>
+  </div>
+  <div class="clearfix-padding"></div>
+  <!-- FOOTER -->
+  <footer>
+    <div class="banner-wrapper">
+      <div class="icon-text">
+        <div class="icon-text-icon">
+          <ul class="footer-nav">
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <li>
+              <a href="#quienesomos">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="#services">Servicios</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icon-text-text" id="contact">
+          <ul class="social">
+            <li>
+              <a href="mailto:crayoa@gmail.com">
+                <i class="fa fa-envelope-o"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/u.marianogalvez/" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/marianogalvez?lang=es" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/user/umarianogalvez?app=desktop" target="_blank">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/marianogalvez/?hl=es" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer-second">
+    <p>
+      &copy; Cristian Rayo-Ingenieria-En-Sistemas
+    </p>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+</body>
+</html>
